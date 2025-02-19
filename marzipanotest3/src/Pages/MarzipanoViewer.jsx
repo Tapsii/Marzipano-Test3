@@ -15,7 +15,7 @@ const MarzipanoViewer = () => {
             // Store the viewer instance in state
             setViewer(newViewer);
 
-            const source = window.Marzipano.ImageUrlSource.fromString('/Imgs/QUAD.jpg');
+            const source = window.Marzipano.ImageUrlSource.fromString('/Imgs/spideymeme.jpg');
             const geometry = new window.Marzipano.EquirectGeometry([{ width: 4000 }]);
 
             const limiter = window.Marzipano.RectilinearView.limit.traditional(
